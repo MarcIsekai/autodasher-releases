@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.19 (version code 30)
+- New in the System Check menu: going-rate and floor-rate sliders. The $1.50 going rate and the $1.00 floor are yours to set now, and the menu warns you if the floor ever crosses the going rate (the CLOSE band disappears when it does). The main screen is unchanged.
+- Spanish: pick English or Español in the System Check menu. The whole app, the banners (BUENA / CERCA / PASAR), the spoken verdicts, and the watcher switch together, and the watcher reads Spanish offer cards too, US and metric formats alike.
+- Kilometres: a miles/kilometres switch in the same menu. Distances, caps, and rates convert together, so your verdicts come out exactly the same in km.
+
 ## v2.16 (version code 27)
 - Updates now come from this GitHub repository instead of Google Drive. Same app, same rules, same verdicts; the download address is the only thing that changed. Drive links could stall or make you download twice; these are permanent links that just serve the file.
 - If you are updating from v2.14 or earlier, this one update still arrives the old way (through Drive or the file you already use). Every update after this one comes from here.
