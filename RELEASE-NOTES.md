@@ -1,5 +1,11 @@
 # Auto-Dasher release notes
 
+## v2.21 (version code 33)
+- Screenshot fixes (from a tester's night of dashing): offer screenshots now fire only for a confirmed offer card, so browsing DoorDash (earnings, ratings) no longer triggers stray shots — and a real offer's screenshot can no longer be eaten by an earlier one. Back-to-back offers each get their own capture, and a capture that fails once retries instead of giving up.
+- New: Max total time slider. Cap an offer's stated total minutes; over the cap is a SKIP, same as the other caps. Off until you set it.
+- New: Max units (Shop & Deliver) slider. A units cap of its own for Shop & Deliver offers, independent of the general shopping units cap. Off until you set it.
+- The Max units (shopping) slider now runs 1–200 (it used to stop at 20).
+
 ## v2.19 (version code 30)
 - New in the System Check menu: going-rate and floor-rate sliders. The $1.50 going rate and the $1.00 floor are yours to set now, and the menu warns you if the floor ever crosses the going rate (the CLOSE band disappears when it does). The main screen is unchanged.
 - Spanish: pick English or Español in the System Check menu. The whole app, the banners (BUENA / CERCA / PASAR), the spoken verdicts, and the watcher switch together, and the watcher reads Spanish offer cards too, US and metric formats alike.

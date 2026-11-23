@@ -24,6 +24,6 @@ Auto-Dasher watches every DoorDash offer the second it lands and judges it by YO
 
 ## Current version
 
-2.19 — see RELEASE-NOTES.md for what changed.
+2.16 — see RELEASE-NOTES.md for what changed.
 
 Auto-Dasher is an independent tool, not affiliated with or endorsed by DoorDash, Inc.
