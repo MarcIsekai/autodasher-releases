@@ -1,5 +1,9 @@
 # Auto-Dasher release notes
 
+## v2.23 (version code 35)
+- New: your own timing for the auto actions. Under the Auto-accept switch there is now an Auto-accept delay pair — a Minimum and a Maximum in seconds, anywhere from 2 to 30 — and the same pair under Auto-decline. The app picks a random moment inside your range, so no two offers are handled alike; set both points to the same number for a fixed delay. Dragging Minimum past Maximum pushes Maximum along, so the pair can't cross. Defaults are the old timing (accept 2–4s, decline 5–15s), so nothing changes until you move them. CLOSE offers still get their flat 30 seconds.
+- Removed: the Check for Updates button on the System Check page is gone from the Play Store and Safe builds — Google Play (or your download page) handles updates there, and the button did nothing. It stays in this full build, which still updates itself from this page.
+
 ## v2.22 (version code 34)
 - Correction to v2.21: the separate Shop & Deliver units slider is gone. Shopping and Shop & Deliver are the same thing, so there is one pair of load caps now, side by side: Max items and Max units.
 - New: Max items slider, directly above Max units. An item is a product; units are how many of it the order carries ("Shop for 2 items (13 units)"). A card that states more items than your max is a SKIP, same as the other caps. It starts at 200, which is effectively no cap, so nothing changes until you set it.
