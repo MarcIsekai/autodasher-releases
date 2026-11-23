@@ -1,5 +1,9 @@
 # Auto-Dasher release notes
 
+## v2.24 (version code 36)
+- The free trial is now impossible to miss (Play Store build): the first time you open the app, a welcome message tells you the 14-day free trial has started and that keeping the app afterwards costs $4.99 once. Under the app name there is now a big TRIAL button counting down the days left, with "Click to purchase for life" printed under it — tap the button any time to buy. It turns red for the last 3 days.
+- When the trial ends, a banner at the top of the screen says so and offers the purchase right there. Close it with the X and it simply comes back the next time you open the app, until you purchase. Once you purchase, the button and the banner disappear for good. Your settings are never touched either way.
+
 ## v2.23 (version code 35)
 - New: your own timing for the auto actions. Under the Auto-accept switch there is now an Auto-accept delay pair — a Minimum and a Maximum in seconds, anywhere from 2 to 30 — and the same pair under Auto-decline. The app picks a random moment inside your range, so no two offers are handled alike; set both points to the same number for a fixed delay. Dragging Minimum past Maximum pushes Maximum along, so the pair can't cross. Defaults are the old timing (accept 2–4s, decline 5–15s), so nothing changes until you move them. CLOSE offers still get their flat 30 seconds.
 - Removed: the Check for Updates button on the System Check page is gone from the Play Store and Safe builds — Google Play (or your download page) handles updates there, and the button did nothing. It stays in this full build, which still updates itself from this page.
