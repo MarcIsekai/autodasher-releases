@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.22 (version code 34)
+- Correction to v2.21: the separate Shop & Deliver units slider is gone. Shopping and Shop & Deliver are the same thing, so there is one pair of load caps now, side by side: Max items and Max units.
+- New: Max items slider, directly above Max units. An item is a product; units are how many of it the order carries ("Shop for 2 items (13 units)"). A card that states more items than your max is a SKIP, same as the other caps. It starts at 200, which is effectively no cap, so nothing changes until you set it.
+- The Max total time slider from v2.21 stays exactly as it was.
+
 ## v2.21 (version code 33)
 - Screenshot fixes (from a tester's night of dashing): offer screenshots now fire only for a confirmed offer card, so browsing DoorDash (earnings, ratings) no longer triggers stray shots — and a real offer's screenshot can no longer be eaten by an earlier one. Back-to-back offers each get their own capture, and a capture that fails once retries instead of giving up.
 - New: Max total time slider. Cap an offer's stated total minutes; over the cap is a SKIP, same as the other caps. Off until you set it.
