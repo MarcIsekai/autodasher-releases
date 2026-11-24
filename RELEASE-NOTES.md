@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.25 (version code 37)
+- New: Daily History. A DAILY HISTORY button on the main screen opens the last 20 days of offers Auto-Dasher handled: how many you took, what they paid and how far they ran, against how many you passed, what they would have paid ("given up") and the miles you saved by passing them. Pay is the offer's stated pay, the figure on the card when you decided.
+- Only offers whose outcome the app actually saw are counted: one it accepted or declined itself, one you grabbed off the CLOSE banner, or one where it watched you accept or decline by hand. An offer that disappeared before its outcome isn't counted either way — the page says exactly that, because the numbers are only worth anything if they're honest.
+- Private, like everything else in this app: the records live on your phone only. No account, no network, no export — the Play build still has no internet permission at all.
+
 ## v2.24 (version code 36)
 - The free trial is now impossible to miss (Play Store build): the first time you open the app, a welcome message tells you the 14-day free trial has started and that keeping the app afterwards costs $4.99 once. Under the app name there is now a big TRIAL button counting down the days left, with "Click to purchase for life" printed under it — tap the button any time to buy. It turns red for the last 3 days.
 - When the trial ends, a banner at the top of the screen says so and offers the purchase right there. Close it with the X and it simply comes back the next time you open the app, until you purchase. Once you purchase, the button and the banner disappear for good. Your settings are never touched either way.
