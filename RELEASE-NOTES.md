@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.30 (version code 42)
+- Bug fix: an auto-decline could die on DoorDash's confirmation screen. The second tap, the "Decline offer" button, sits behind its own countdown and could wake up after the app had stopped looking, and a tap that landed wrong could silently do nothing while the app believed the decline was done. The confirmation screen then timed out and DoorDash cancelled the decline, leaving the offer alive.
+- Now the app keeps hunting for that button for a full 45 seconds, and after a tap it checks that the confirmation screen is actually gone before it counts the decline as done. If the screen is still up, it presses again. A decline is only recorded in Daily History once the screen has disappeared.
+- No new permissions in any build. The Play build still has no internet permission at all.
+
 ## v2.29 (version code 41)
 - Bug fix: a CLOSE offer's 30-second countdown could restart before it finished. The app re-checked the card every few seconds and, 20 seconds in, treated the same offer as brand new, so the banner restarted its countdown at the 10-seconds-left mark and the offer never declined itself. Now, while any auto action is counting down, the same offer is left alone until the action lands.
 - No new permissions in any build. The Play build still has no internet permission at all.
