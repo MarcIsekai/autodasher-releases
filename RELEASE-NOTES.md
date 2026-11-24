@@ -1,5 +1,9 @@
 # Auto-Dasher release notes
 
+## v2.29 (version code 41)
+- Bug fix: a CLOSE offer's 30-second countdown could restart before it finished. The app re-checked the card every few seconds and, 20 seconds in, treated the same offer as brand new, so the banner restarted its countdown at the 10-seconds-left mark and the offer never declined itself. Now, while any auto action is counting down, the same offer is left alone until the action lands.
+- No new permissions in any build. The Play build still has no internet permission at all.
+
 ## v2.28 (version code 40)
 - Auto-decline pacing fix: the second tap, the "Decline offer" button on DoorDash's confirmation screen, now lands 2 to 4 seconds after the first decline tap, every time. A steadier, more human rhythm between the two presses, with no setting to fiddle with.
 - Nothing else changes: same verdicts, same delays you set for the first tap, same Daily History. No new permissions in any build. The Play build still has no internet permission at all.
