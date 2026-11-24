@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.27 (version code 39)
+- Daily History now uses YOUR mileage rate. A slider on the history page sets your cost per mile anywhere from $0.10 to $0.76, and every day on the page refigures the moment you move it: expense, actual earned, and cost saved.
+- The default is still the federal rate of $0.76 a mile, and the page says which rate it used, federal or yours. Nothing is stored any differently; the rate is applied when the page figures your days, so your existing history picks it up instantly.
+- No new permissions in any build. The Play build still has no internet permission at all.
+
 ## v2.26 (version code 38)
 - Daily History now figures the cost of the miles, at the federal mileage rate of $0.76 a mile. Each day adds an expense line — the taken miles at that rate, and your actual earned: what the taken offers paid minus that expense. A hard day can show a negative actual earned, and it will, honestly.
 - The passed side gains a total savings: the driving cost of the miles you did NOT drive by passing those offers, at the same rate. The rate used is printed right on the history page.
