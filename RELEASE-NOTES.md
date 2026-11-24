@@ -1,5 +1,9 @@
 # Auto-Dasher release notes
 
+## v2.28 (version code 40)
+- Auto-decline pacing fix: the second tap, the "Decline offer" button on DoorDash's confirmation screen, now lands 2 to 4 seconds after the first decline tap, every time. A steadier, more human rhythm between the two presses, with no setting to fiddle with.
+- Nothing else changes: same verdicts, same delays you set for the first tap, same Daily History. No new permissions in any build. The Play build still has no internet permission at all.
+
 ## v2.27 (version code 39)
 - Daily History now uses YOUR mileage rate. A slider on the history page sets your cost per mile anywhere from $0.10 to $0.76, and every day on the page refigures the moment you move it: expense, actual earned, and cost saved.
 - The default is still the federal rate of $0.76 a mile, and the page says which rate it used, federal or yours. Nothing is stored any differently; the rate is applied when the page figures your days, so your existing history picks it up instantly.
