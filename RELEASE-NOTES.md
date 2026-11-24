@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.26 (version code 38)
+- Daily History now figures the cost of the miles, at the federal mileage rate of $0.76 a mile. Each day adds an expense line — the taken miles at that rate, and your actual earned: what the taken offers paid minus that expense. A hard day can show a negative actual earned, and it will, honestly.
+- The passed side gains a total savings: the driving cost of the miles you did NOT drive by passing those offers, at the same rate. The rate used is printed right on the history page.
+- Nothing else changes: the same witnessed-outcome counting, the same 20 days, the same phone-only records. No new permissions in any build — the Play build still has no internet permission at all.
+
 ## v2.25 (version code 37)
 - New: Daily History. A DAILY HISTORY button on the main screen opens the last 20 days of offers Auto-Dasher handled: how many you took, what they paid and how far they ran, against how many you passed, what they would have paid ("given up") and the miles you saved by passing them. Pay is the offer's stated pay, the figure on the card when you decided.
 - Only offers whose outcome the app actually saw are counted: one it accepted or declined itself, one you grabbed off the CLOSE banner, or one where it watched you accept or decline by hand. An offer that disappeared before its outcome isn't counted either way — the page says exactly that, because the numbers are only worth anything if they're honest.
