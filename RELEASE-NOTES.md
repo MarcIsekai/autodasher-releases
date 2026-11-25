@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.34 (version code 46)
+- The CLOSE banner now shows exactly once per offer. Tap it, let the 30 seconds run out, or take or pass the offer on the card itself: the banner is gone and it does not come back for that offer. No repeat pop-ups while a card sits on screen.
+- If you press Accept or Decline on the offer card while the CLOSE banner is up, the banner dismisses itself the moment the card leaves the screen.
+- No new permissions in any build. The Play build still has no internet permission at all.
+
 ## v2.33 (version code 45)
 - CLOSE calls no longer decline themselves. The amber banner counts down 30 seconds and then simply goes away; tap it and it goes away now. The offer is never touched and stays on your card for you to decide. Auto-decline now applies to SKIP offers only; GOOD auto-accept is unchanged.
 - The CLOSE countdown now reads as what it is, the time until the banner clears ("Clears in Ns… tap to dismiss"), and the stacked note reads "Stacked offer — your call" in every mode.
