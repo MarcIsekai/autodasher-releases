@@ -1,5 +1,10 @@
 # Auto-Dasher release notes
 
+## v2.32 (version code 44)
+- Shopping offers are now judged per order, not combined. A stop that says "Shop for 2 orders (44 items, 50 units)" is weighed as two orders of 22 items and 25 units, and the item and unit caps judge the largest single order on the card. One combined list no longer fails an offer that is really two reasonable shops.
+- When a dash ends, the app takes a single screenshot of DoorDash's own Dash summary card (online time, offers accepted, earnings) and saves it with your offer screenshots, if screenshots are on. Once that card disappears it can never be seen again; now you keep it.
+- No new permissions in any build. The Play build still has no internet permission at all.
+
 ## v2.31 (version code 43)
 - Daily History is removed. Its totals only ever covered the offers the app happened to witness, and they never reconciled with DoorDash's own dash summary, so the page argued with the real numbers. The verdicts, delays, and auto actions are unchanged.
 - No new permissions in any build. The Play build still has no internet permission at all.
